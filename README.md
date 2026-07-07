@@ -40,7 +40,7 @@
 
 ```bash
 # Clone
-git clone https://github.com/<your-username>/mz-matcher.git
+git clone https://github.com/Amin-Jarrahi/mz-matcher.git
 cd mz-matcher
 
 # Build

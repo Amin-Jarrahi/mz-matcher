@@ -1,41 +1,50 @@
-# Prerequisites
-*.d
+# ── Build directories ─────────────────────────────────────────────────────
+build/
+cmake-build-*/
+out/
 
-# Compiled Object files
-*.slo
-*.lo
+# ── CMake generated files ────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+# ── IDE / Editor files ───────────────────────────────────────────────────
+# CLion / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+xcuserdata/
+
+# ── Compiled objects / binaries ──────────────────────────────────────────
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.a
+*.lib
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+mz-matcher
 
-# debug information files
-*.dwo
+# ── OS files ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Data / Results (user-specific, not tracked) ─────────────────────────
+data/
+results/
